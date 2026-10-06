@@ -1,0 +1,61 @@
+/* Basic CSS & Layout Setup */
+body {
+  padding: 40px 0px;
+  margin: 0px auto;
+  text-align: center;
+  width: 80vw;
+  /* dynamic calculations using calc() */
+  min-height: calc(100vh - 80px); 
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* হালকা ব্যাকগ্রাউন্ড */
+  color: #333333; /* গাঢ় টেক্সট */
+}
+
+/* Typography settings using rem */
+h1 {
+  font-size: 2.5rem; 
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.event-details {
+  font-size: 1.1rem;
+  color: #555555;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #2c3e50;
+  margin: 20px 0px;
+}
+
+/* Sections Styling - without using advance flexbox */
+.section-box {
+  background-color: #ffffff;
+  border: 2px solid #2c3e50;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #e74c3c;
+  margin-top: 0px;
+}
+
+/* List Formatting using em units for proportional spacing */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  text-align: left;
+  font-size: 1.1rem;
+  margin-bottom: 0.6em; /* em unit-এর ব্যবহার */
+}
+
+/* Footer Padding */
+footer {
+  padding-top: 20px;
+  font-size: 0.9rem;
+}
