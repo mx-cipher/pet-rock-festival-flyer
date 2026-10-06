@@ -10,3 +10,5 @@ This is a clean and simple event flyer webpage for the **Pet Rock Festival**. Bu
 
 ## Project Scope
 Styled completely using beginner-friendly Core CSS concepts (Colors, Borders, Margins, Paddings, and Text Alignment) without using advanced CSS frameworks or layouts.
+
+Developed by Mehedi Hasan (MX-Cipher)
